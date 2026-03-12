@@ -11,7 +11,7 @@ function App() {
     <>
       <HashRouter>
         <div className="flex justify-between items-center w-full h-[100px] px-5 text-white border-b border-b-[rgba(255,255,255,0.2) sm:h-[50px] ]">
-          <h1>THE PLANETS</h1>
+          <Link to="/">THE PLANETS</Link>
 
           <button
             className="md:flex hidden flex-col gap-1.5 cursor-pointer"
