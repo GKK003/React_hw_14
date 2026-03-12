@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Data from "../../Data.json";
 import { useParams } from "react-router-dom";
-import Arrow from "../../public/images/Arrow.png";
+import Arrow from "../../public/images/arrow.png";
 import Button from "../components/__atoms/Button";
 import FooterBox from "../components/__atoms/footerbox";
 import Btn from "../components/__atoms/btn1";
