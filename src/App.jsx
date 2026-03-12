@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Link, Route, Routes } from "react-router";
+import { HashRouter, Link, Route, Routes } from "react-router";
 import Planet from "./pages/Planet";
 import Data from "../Data.json";
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <div className="flex justify-between items-center w-full h-[100px] px-5 text-white border-b border-b-[rgba(255,255,255,0.2) sm:h-[50px] ]">
           <h1>THE PLANETS</h1>
 
@@ -57,7 +57,7 @@ function App() {
           <Route path="/" element={<Planet />} />
           <Route path="/:name" element={<Planet />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
