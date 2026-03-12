@@ -54,7 +54,7 @@ function App() {
         )}
 
         <Routes>
-          <Route path="/" element={<Planet />} />
+          <Route path="/" element={<Planet key="home" />} />
           <Route path="/:name" element={<Planet />} />
         </Routes>
       </HashRouter>
