@@ -7,14 +7,24 @@
 }
 
 @custom-variant 2xl (@media (max-width: 1535px));
-@custom-variant xl (@media (max-width: 1279px));
-@custom-variant lg (@media (max-width: 1023px));
-@custom-variant md (@media (max-width: 767px));
-@custom-variant sm (@media (max-width: 639px));
+@custom-variant xl (@media (max-width: 1033px));
+@custom-variant lg (@media (max-width: 900px));
+@custom-variant md (@media (max-width: 780px));
+@custom-variant sm (@media (max-width: 665px));
 @custom-variant gg (@media (max-width: 450px));
 
 body {
   background-color: #070724;
   font-family: "League Spartan", sans-serif;
-  /* font-family: "Antonio", sans-serif; */
+  min-height: 100vh;
+}
+
+footer h1 {
+  font-family: "Antonio", sans-serif;
+}
+
+.planets,
+.planet_name,
+footer h1 {
+  font-family: "Antonio", sans-serif;
 }
