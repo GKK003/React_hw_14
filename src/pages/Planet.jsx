@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Data from "../../Data.json";
 import { useParams } from "react-router-dom";
 import Arrow from "../../public/images/arrow.png";
 import Button from "../components/__atoms/Button";
 import LastDiv from "../components/__atoms/LastDiv";
 import Btn from "../components/__atoms/btn1";
-import LastDiv from "../components/__atoms/LastDiv";
 
 function Planet() {
   const params = useParams();
