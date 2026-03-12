@@ -11,6 +11,7 @@ function Planet() {
   const newData = Data.find(
     (planet) => (params.name || "Mercury") === planet.name,
   );
+
   const [activeTab, setActiveTab] = useState("overview");
 
   const content = {
