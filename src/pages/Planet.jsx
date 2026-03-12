@@ -3,8 +3,9 @@ import Data from "../../Data.json";
 import { useParams } from "react-router-dom";
 import Arrow from "../../public/images/arrow.png";
 import Button from "../components/__atoms/Button";
-import FooterBox from "../components/__atoms/footerbox";
+import LastDiv from "../components/__atoms/LastDiv";
 import Btn from "../components/__atoms/btn1";
+import LastDiv from "../components/__atoms/LastDiv";
 
 function Planet() {
   const params = useParams();
@@ -105,10 +106,10 @@ function Planet() {
         </div>
       </div>
       <footer className="flex gap-6 justify-center items-center w-full h-[100px] px-5 text-white mb-10 sm:flex-col sm: mt-30 sm:mb-50  ">
-        <FooterBox num={newData.rotation} text="ROTATION TIME" />
-        <FooterBox num={newData.revolution} text="REVOLUTION TIME" />
-        <FooterBox num={newData.radius} text="RADIUS" />
-        <FooterBox num={newData.temperature} text="AVERAGE TEMP." />
+        <LastDiv num={newData.rotation} text="ROTATION TIME" />
+        <LastDiv num={newData.revolution} text="REVOLUTION TIME" />
+        <LastDiv num={newData.radius} text="RADIUS" />
+        <LastDiv num={newData.temperature} text="AVERAGE TEMP." />
       </footer>
     </>
   );
